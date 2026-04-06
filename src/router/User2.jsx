@@ -4,7 +4,6 @@ import UserCard from './UserCard';
 const User2 = ({userPromise}) => {
 
     const userData2 = use(userPromise);
-    console.log("user2 suspense data", userData2);
     return (
         <div>
             <h3>This is users 2 section</h3>
