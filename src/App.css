@@ -9,7 +9,7 @@ nav a.active{
 
 .main-screen{
   display: flex;
-  gap: 130px;
+  gap: 30px;
   
 }
 
@@ -24,4 +24,12 @@ nav a.active{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
